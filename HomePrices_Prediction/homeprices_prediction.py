@@ -19,5 +19,3 @@ plt.scatter(df.area,df.price,color='red',marker='+')
 reg=linear_model.LinearRegression()
 reg.fit(df[['area']],df.price)
 reg.predict([[3300]])
-
-
